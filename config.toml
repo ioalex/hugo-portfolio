@@ -1,0 +1,16 @@
+baseURL = "https://alexhe.io"
+languageCode = "en-us"
+title = "Home 🏠"
+theme = "etch"
+
+pygmentsUseClasses = true  # use class names instead of directly inserting color codes
+pygmentsCodeFences = true  # enable GitHub style code snippets
+
+[params]
+  copyright = "Copyright © 2020 Alex He"
+  description = "Personal website for Alex He"
+  highlight = true
+  dark = "auto"
+
+[permalinks]
+  posts = "/:title/"
